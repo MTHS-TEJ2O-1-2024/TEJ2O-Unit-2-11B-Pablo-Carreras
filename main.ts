@@ -1,13 +1,12 @@
 /* Copyright (c) 2020 MTHS All rights reserved
  *
- * Created by: Mr. Coxall
- * Created on: Sep 2020
+ * Created by: Pablo Carreras
+ * Created on: OCT 2024
  * This program generates random numbers and compares 
 */
 
 let randomNumber1: number 
 let randomNumber2: number
-
 
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
