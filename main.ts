@@ -12,9 +12,12 @@ let randomNumber2: number
 basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
+//random number generator 
+randomNumber1 = randint(0, 99)
+randomNumber2 = randint(0, 99)
+
 //#1 number 
 input.onButtonPressed(Button.A, function () {
-    randomNumber1 = randint(0,99)
     basic.clearScreen()
     basic.showString('# 1 :' + randomNumber1)
     basic.showIcon(IconNames.Happy)
@@ -22,7 +25,6 @@ input.onButtonPressed(Button.A, function () {
 
 //#2 number 
 input.onButtonPressed(Button.B, function () {
-    randomNumber2 = randint(0, 99)
     basic.clearScreen()
     basic.showString('# 2 :' + randomNumber2)
     basic.showIcon(IconNames.Happy)
